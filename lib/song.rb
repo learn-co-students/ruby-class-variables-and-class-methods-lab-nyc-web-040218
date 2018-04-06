@@ -29,7 +29,7 @@ class Song
     genre_count = {}
 
     for i in 0..@@genres.length-1 do
-      if genre_count.keys.include?(@@genres[i]) == true
+      if genre_count.keys.include?(@@genres[i])
         next
       else
         count = 1
@@ -47,7 +47,7 @@ class Song
     artist_count = {}
 
     for i in 0..@@artists.length-1 do
-      if artist_count.keys.include?(@@artists[i]) == true
+      if artist_count.keys.include?(@@artists[i])
         next
       else
         count = 1
